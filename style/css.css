@@ -1,0 +1,53 @@
+.header{
+    margin:0 auto;
+    background-color: rgb(176, 119, 228);
+    justify-content: center;
+    
+    font-size: 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+@font-face{
+    font-family: "ofont.ru_Bebas Neue";
+    src: url(../fonts/ofont.ru_Bebas\ Neue.ttf);
+}
+
+*{
+    font-family: "ofont.ru_Bebas Neue";
+}
+
+.container{
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1000px;
+}
+
+.block{
+    margin:15px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(190, 190, 210);
+    
+    text-align: center;
+    flex-shrink: 4;
+    flex-grow: 1;
+    font-size: xx-large;
+
+
+}
+
+
+p{
+    color: white;
+    text-align: left;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    width: 80%;
+}
